@@ -1,0 +1,31 @@
+{
+  "name": "easy-utils2",
+  "version": "0.0.1",
+  "description": "js常用工具库",
+  "main": "./build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build -d build ./src/index.js",
+    "dev": "parcel ./index.html",
+    "pub": "npm publish --access=public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/25juan/easy-utils2.git"
+  },
+  "keywords": [
+    "react-native",
+    "react",
+    "es6",
+    "utils"
+  ],
+  "author": "sgellar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/25juan/easy-utils2/issues"
+  },
+  "homepage": "https://github.com/25juan/easy-utils2#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
