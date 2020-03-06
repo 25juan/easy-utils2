@@ -35,7 +35,6 @@ const fixedZero = function (str,length = 2) {
     let _str = `${str}` ;
     let len = length  - _str.length ;
     if(len>0){
-
         _str = Array(len).fill(0).join("") + _str ;
     }
     return _str ;
