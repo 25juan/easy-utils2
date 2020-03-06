@@ -1,7 +1,7 @@
 /**
  * 倒计时
  * 使用场景：发送短信码倒计时验证
- * 使用方法：countDown(60,(time)=>{
+ * 使用方法：countDown(60,(time,over)=>{
  *     console.log(time);
  * })
  * @param time
